@@ -48,14 +48,14 @@ class TestAverageStrategy {
 		
 		List<Integer> nums2 = new ArrayList<>();
 		
-		nums2.add(1);
-		nums2.add(2);
-		nums2.add(3);
 		nums2.add(4);
 		nums2.add(5);
-		nums2.add(6); 
+		nums2.add(6);
+		nums2.add(7);
+		nums2.add(10);
+		nums2.add(9); 
 		
-		Assert.assertEquals(3, ctxt.calculate(nums2));
+		Assert.assertEquals(6, ctxt.calculate(nums2));
 		
 		
 		List<Integer> nums3 = new ArrayList<>();
